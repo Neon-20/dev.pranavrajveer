@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@keyframes spin {
+  50% {
+    scale: 2;
+  }
+}
+
+#cursorthing {
+  transition: all 0.1s;
+  animation: spin 5s ease-in-out infinite;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #f81ce5;
+}
+
+::selection {
+  color: white;
+  background: #f81ce5;
+}
+
+#t1wrap::before {
+  content: "❤️";
+  position: absolute;
+  opacity: 0.95;
+  z-index: -1;
+  inset: 0;
+}
+
+#t2wrap::before {
+  content: "👨🏻‍💻";
+  position: absolute;
+  opacity: 0.95;
+  z-index: -1;
+  inset: 0;
+}
+
+#t3wrap::before {
+  content: "Pranav";
+  position: absolute;
+  opacity: 0.95;
+  z-index: -1;
+  inset: 0;
+}
+
+#t4wrap::before {
+  content: "Rajveer ";
+  position: absolute;
+  opacity: 0.95;
+  z-index: -1;
+  inset: 0;
+}
