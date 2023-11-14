@@ -53,7 +53,7 @@ export default function Home() {
       </h1>
       <Canvas />
       <span className="fixed mr-4 right-2/4 -translate-x-1/2 bottom-20 text-neutral-600 text-sm duration-300 hover:text-white">
-        <a target="_blank" href="https://twitter.com/home">
+        <a target="_blank" href="https://twitter.com/pranav12yoyo">
         <Twitter/>
         </a>
       </span>
