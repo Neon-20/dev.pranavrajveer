@@ -1,7 +1,5 @@
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
-// import { Analytics } from "@vercel/analytics/react";
-
 import "./globals.css";
 
 // If loading a variable font, you don't need to specify the font weight
