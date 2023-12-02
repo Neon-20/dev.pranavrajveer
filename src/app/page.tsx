@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div>
       <h1 className="fixed opacity-90 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold text-6xl md:text-8xl text-center">
+      <Link href = "https://pranavrajveer.com" target="_blank">
         <div id="t1wrap" className="relative pb-2">
           <span
             id="t1"
@@ -40,6 +41,7 @@ export default function Home() {
             Rajveer 
           </span>
         </div>
+        </Link>
         <Link href="https://calendly.com/pranavrajveer/developer-recruiter-connect" target="_blank">
         <div
           id="subtitle"
