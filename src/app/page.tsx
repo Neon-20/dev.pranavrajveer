@@ -60,7 +60,7 @@ export default function Home() {
         </a>
       </span>
       <span className="fixed left-1/2 -ml-20 -translate-x-1/2 bottom-20 text-neutral-600 text-sm duration-300 hover:text-white">
-        <a target="_blank" href="https://github.com/Neon-20">
+        <a target="_blank" href="https://bento.me/Neon20">
         <PawPrint/>
         </a>
       </span>
