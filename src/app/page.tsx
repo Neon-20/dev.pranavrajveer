@@ -59,6 +59,11 @@ export default function Home() {
         <Twitter/>
         </a>
       </span>
+      <span className="fixed left-1/2 -ml-20 -translate-x-1/2 bottom-20 text-neutral-600 text-sm duration-300 hover:text-white">
+        <a target="_blank" href="https://github.com/Neon-20">
+        <PawPrint/>
+        </a>
+      </span>
       <span className="fixed left-1/2 -translate-x-1/2 bottom-20 text-neutral-600 text-sm duration-300 hover:text-white">
         <a target="_blank" href="https://github.com/Neon-20">
         <Github/>
@@ -74,14 +79,10 @@ export default function Home() {
         <ExternalLink/>
         </a>
       </span>
-      <span className="fixed left-1/3 ml-40 -translate-x-1/2 bottom-20 text-neutral-600 text-sm duration-300 hover:text-white">
-        <a target="_blank" href="https://bento.me/Neon20">
-        <PawPrint/>
-        </a>
-      </span>
       <span className="fixed bottom-8 left-1/2 -translate-x-1/2 text-neutral-600 text-sm">
         Made with  <span className="-mr-[3px] p-1 text-2xl"> ❤️ </span><span className="p-0">from </span><span className="font-semibold text-blue-500">Pranav</span>
       </span>
  </div>
   );
 }
+{/* "https://bento.me/Neon20" */}
