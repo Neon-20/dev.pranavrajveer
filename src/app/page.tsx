@@ -42,16 +42,21 @@ export default function Home() {
           </span>
         </div>
         </Link>
-        <Link href="https://calendly.com/pranavrajveer/developer-recruiter-connect" target="_blank">
         <div
           id="subtitle"
-          className="rounded-full bg-white bg-opacity-80 font-normal max-w-max mx-auto mt-8 text-sm md:text-xl p-[1px] md:p-[1.5px]"
+          className="font-normal mx-auto mt-8 text-sm md:text-xl flex"
         >
-          <div className="px-4 py-2 rounded-full bg-black bg-opacity-60 duration-300 cursor-pointer hover:bg-black text-white">
-            Connect with me here 🍻
+          <Link href="https://calendly.com/pranavrajveer/developer-recruiter-connect" target="_blank">
+          <div className="px-3 py-2  bg-black bg-opacity-60 duration-300 cursor-pointer hover:bg-black text-white">
+            Schedule a Call 🍻
           </div>
+          </Link>
+          <Link href="https://pranavrajveer.com" target="_blank">
+          <div className="px-3 py-2 bg-black bg-opacity-60 duration-300 cursor-pointer hover:bg-black text-white">
+            Personal Site 💼
+          </div>
+          </Link>
         </div>
-        </Link>
       </h1>
       <Canvas />
       <span className="fixed mr-4 right-2/4 -translate-x-1/2 bottom-20 text-neutral-600 text-sm duration-300 hover:text-white">
