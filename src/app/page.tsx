@@ -44,7 +44,7 @@ export default function Home() {
         </Link>
         <div
           id="subtitle"
-          className="font-normal mx-auto mt-8 text-sm md:text-xl flex"
+          className="font-normal mx-auto mt-8 text-sm md:text-xl md:flex"
         >
           <Link href="https://calendly.com/pranavrajveer/developer-recruiter-connect" target="_blank">
           <div className="px-3 py-2  bg-black bg-opacity-60 duration-300 cursor-pointer hover:bg-black text-white">
